@@ -12,7 +12,7 @@ Use
 
 ```css
 <link rel=“stylesheet” href=“path to CSS file”>
-```​
+```
 
 ### Inline CSS​
 
