@@ -8,7 +8,9 @@ CSS is a standard style sheet language used for describing the presentation (i.e
 
 ### External CSS​
 
-Use ```css
+Use
+
+```css
 <link rel=“stylesheet” href=“path to CSS file”>
 ```​
 
@@ -68,4 +70,4 @@ Example:
 
 ## MEASUREMENTS UNITS​
 
-​![css measurements]("/images/measurements.png")
+​![css measurements](/images/measurements.png)
