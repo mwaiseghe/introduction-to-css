@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction To Css</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal css -->
+    <style>
+        h1 {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="padding-top:5%;">Introduction To Css</h1>
+    
+    <details>
+        <summary>This is Summary</summary>
+        <p>You are currenctly checking on thr details tag</p>
+    </details>
+
+    <br>
+
+    <h2><u>Table</u></h2>
+
+    <table border="solid" class="data-table">
+        <thead>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Role</th>
+        </thead>
+        
+
+        <tbody>
+            <tr>
+                <td> Ashley Young</td>
+                <td>Technical</td>
+                <td>Engineering</td>
+             </tr>
+     
+             <tr>
+                 <td>Robert Keisha</td>
+                 <td>HR</td>
+                 <td>Acquisition</td>
+             </tr>
+     
+             <tr>
+                 <td>Gift Mwaiseghe</td>
+                 <td colspan="2">All Departments</td>
+             </tr>
+        </tbody>
+    </table>
+
+    <h2>Data Form</h2>
+
+    <form action="" method="post" class="data-form">
+       
+        <div class="form-input">
+            <label for="name">Name: </label>
+                <input type="text" name="name" id="">
+        </div>
+
+        <div class="form-input">
+        <label for="department">Department: </label>
+        <input type="text" name="department" required>
+        </div>
+
+        <div class="form-input">
+            <label for="role">Role: </label>
+        <input type="text" name="role" required>
+        </div>
+
+        <button type="submit">Submit</button>  
+       
+    </form>
+
+    <div class="pad">
+
+    </div>
+
+</body>
+</html>
